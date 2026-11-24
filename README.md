@@ -12,11 +12,14 @@
 
 ## Download the Smok APK
 
-Open **[Releases](https://github.com/smoktomap/smok-android/releases)** and download the `.apk` of the latest version. It is the same build as on Google Play, so you can also [get it on Google Play](https://play.google.com/store/apps/details?id=to.smok.app) instead.
+**[Download smok-universal.apk](https://github.com/smoktomap/smok-android/releases/latest/download/smok-universal.apk)** (about 169 MB, works on every Android phone, always the latest version). It is the same build as on [Google Play](https://play.google.com/store/apps/details?id=to.smok.app), signed with Google Play's key, so it also installs over a Play copy.
 
 - Package name: `to.smok.app`
 - Android 8.0 or newer; works on phones without Google Play services.
-- Builds on Releases: one universal APK for every phone and, for people who know their phone, smaller APKs per CPU architecture (`arm64-v8a`, `armeabi-v7a`, `x86_64`, `x86`).
+
+### Smaller files for your phone's CPU (optional)
+
+On the [Releases](https://github.com/smoktomap/smok-android/releases) page there are also smaller APKs, one per CPU architecture: `arm64-v8a` (most phones of the last years, about 54 MB), `armeabi-v7a` (older 32-bit phones, about 41 MB), `x86_64` and `x86` (emulators, Chromebooks). **They are signed with a different key than the Google Play build**, so they cannot be installed over a Play copy (uninstall it first) and the other way round. If you are not sure, take `smok-universal.apk`.
 
 ### Install
 
@@ -26,7 +29,11 @@ Open **[Releases](https://github.com/smoktomap/smok-android/releases)** and down
 
 ### Follow updates with Obtainium
 
-In [Obtainium](https://github.com/ImranR98/Obtainium) choose **Add App** and paste `https://github.com/smoktomap/smok-android`. Obtainium will offer every new release from here.
+1. In [Obtainium](https://github.com/ImranR98/Obtainium) tap **Add app** and paste `https://github.com/smoktomap/smok-android` (or open `obtainium://add/https://github.com/smoktomap/smok-android` on the phone).
+2. Obtainium asks **Pick an APK**. Choose **`smok-universal.apk`**: it is the Google Play build and keeps updating the same way. Obtainium pre-selects the file for your CPU (for example `smok-1.0.3-arm64-v8a.apk`), which has the other signature: change it unless you want that one.
+3. To skip the question for good, before tapping Add open **APK selection**, put `smok-universal` into **Filter links by regex**.
+
+Checked with Obtainium 1.7.5 on Android 16.
 
 ## What Smok shows
 
@@ -41,15 +48,15 @@ Information is published only when an official source (the operator's own page o
 
 ## 日本語
 
-**Smok（スモーク）は、日本全国の喫煙所・喫煙室を地図で探せる無料のAndroidアプリです。** 近くの喫煙所・喫煙室を地図で検索でき、路上喫煙禁止エリアも表示します。駅・空港・商業施設に対応しています。APKはこのページの「Releases」からダウンロードできます（Google Playと同じビルドです）。
+**Smok（スモーク）は、日本全国の喫煙所・喫煙室を地図で探せる無料のAndroidアプリです。** 近くの喫煙所・喫煙室を地図で検索でき、路上喫煙禁止エリアも表示します。駅・空港・商業施設に対応しています。APKは上の「Download smok-universal.apk」から入手できます（Google Playと同じビルドです）。
 
 ## 한국어
 
-**Smok은 일본 흡연구역과 흡연실을 지도에서 찾을 수 있는 무료 안드로이드 앱입니다.** 길거리 흡연 금지 구역도 한눈에 확인할 수 있습니다. APK는 이 페이지의 Releases에서 받을 수 있습니다(Google Play와 같은 빌드).
+**Smok은 일본 흡연구역과 흡연실을 지도에서 찾을 수 있는 무료 안드로이드 앱입니다.** 길거리 흡연 금지 구역도 한눈에 확인할 수 있습니다. APK는 위의 Download smok-universal.apk에서 받을 수 있습니다(Google Play와 같은 빌드).
 
 ## 繁體中文
 
-**Smok 是免費的 Android 應用程式，可在地圖上找日本的吸菸區與吸煙室**，並標示路上禁菸區域，一鍵找到最近的地點。APK 可在本頁的 Releases 下載（與 Google Play 為同一版本）。
+**Smok 是免費的 Android 應用程式，可在地圖上找日本的吸菸區與吸煙室**，並標示路上禁菸區域，一鍵找到最近的地點。APK 可由上方的 Download smok-universal.apk 下載（與 Google Play 為同一版本）。
 
 ## Versions
 
