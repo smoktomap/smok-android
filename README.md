@@ -12,14 +12,14 @@
 
 ## Download the Smok APK
 
-**[Download smok-universal.apk](https://github.com/smoktomap/smok-android/releases/latest/download/smok-universal.apk)** (about 169 MB, works on every Android phone, always the latest version). It is the same build as on [Google Play](https://play.google.com/store/apps/details?id=to.smok.app), signed with Google Play's key, so it also installs over a Play copy.
+**[Download smok-universal.apk](https://github.com/smoktomap/smok-android/releases/latest/download/smok-universal.apk)** (about 169 MB, works on every Android phone, also on phones without Google Play services, always the latest version). It is the same app as on [Google Play](https://play.google.com/store/apps/details?id=to.smok.app), but signed with the Smok developer key instead of Google Play's, so **it cannot be installed over a Google Play copy** (uninstall that one first, and the other way round).
 
 - Package name: `to.smok.app`
 - Android 8.0 or newer; works on phones without Google Play services.
 
 ### Smaller files for your phone's CPU (optional)
 
-On the [Releases](https://github.com/smoktomap/smok-android/releases) page there are also smaller APKs, one per CPU architecture: `arm64-v8a` (most phones of the last years, about 54 MB), `armeabi-v7a` (older 32-bit phones, about 41 MB), `x86_64` and `x86` (emulators, Chromebooks). **They are signed with a different key than the Google Play build**, so they cannot be installed over a Play copy (uninstall it first) and the other way round. If you are not sure, take `smok-universal.apk`.
+On the [Releases](https://github.com/smoktomap/smok-android/releases) page there are also smaller APKs, one per CPU architecture: `arm64-v8a` (most phones of the last years, about 54 MB), `armeabi-v7a` (older 32-bit phones, about 41 MB), `x86_64` and `x86` (emulators, Chromebooks). All of them carry the same Smok developer key as `smok-universal.apk`, so they can update one another; none installs over a Google Play copy. If you are not sure, take `smok-universal.apk`.
 
 ### Install
 
@@ -30,10 +30,10 @@ On the [Releases](https://github.com/smoktomap/smok-android/releases) page there
 ### Follow updates with Obtainium
 
 1. In [Obtainium](https://github.com/ImranR98/Obtainium) tap **Add app** and paste `https://github.com/smoktomap/smok-android` (or open `obtainium://add/https://github.com/smoktomap/smok-android` on the phone).
-2. Obtainium asks **Pick an APK**. Choose **`smok-universal.apk`**: it is the Google Play build and keeps updating the same way. Obtainium pre-selects the file for your CPU (for example `smok-1.0.3-arm64-v8a.apk`), which has the other signature: change it unless you want that one.
-3. To skip the question for good, before tapping Add open **APK selection**, put `smok-universal` into **Filter links by regex**.
+2. Obtainium asks **Pick an APK**. Choose **`smok-universal.apk`** (works everywhere) or the smaller file for your CPU: Obtainium pre-selects it (for example `smok-1.0.3-arm64-v8a.apk`). All files carry the same key, so you can switch later.
+3. To skip the question and always take the universal file, before tapping Add open **APK selection** and put `smok-universal` into **Filter links by regex**.
 
-Checked with Obtainium 1.7.5 on Android 16.
+Checked with Obtainium 1.7.5 on Android 16 (install and update path with the per-CPU file; the universal file was checked on an Android 16 emulator without Google Play services).
 
 ## What Smok shows
 
@@ -48,15 +48,15 @@ Information is published only when an official source (the operator's own page o
 
 ## 日本語
 
-**Smok（スモーク）は、日本全国の喫煙所・喫煙室を地図で探せる無料のAndroidアプリです。** 近くの喫煙所・喫煙室を地図で検索でき、路上喫煙禁止エリアも表示します。駅・空港・商業施設に対応しています。APKは上の「Download smok-universal.apk」から入手できます（Google Playと同じビルドです）。
+**Smok（スモーク）は、日本全国の喫煙所・喫煙室を地図で探せる無料のAndroidアプリです。** 近くの喫煙所・喫煙室を地図で検索でき、路上喫煙禁止エリアも表示します。駅・空港・商業施設に対応しています。APKは上の「Download smok-universal.apk」から入手できます（Google Play版と同じアプリですが、署名が異なるためGoogle Play版の上には上書きインストールできません）。
 
 ## 한국어
 
-**Smok은 일본 흡연구역과 흡연실을 지도에서 찾을 수 있는 무료 안드로이드 앱입니다.** 길거리 흡연 금지 구역도 한눈에 확인할 수 있습니다. APK는 위의 Download smok-universal.apk에서 받을 수 있습니다(Google Play와 같은 빌드).
+**Smok은 일본 흡연구역과 흡연실을 지도에서 찾을 수 있는 무료 안드로이드 앱입니다.** 길거리 흡연 금지 구역도 한눈에 확인할 수 있습니다. APK는 위의 Download smok-universal.apk에서 받을 수 있습니다(Google Play와 같은 앱이지만 서명이 달라 Google Play 버전 위에 덮어 설치할 수 없습니다).
 
 ## 繁體中文
 
-**Smok 是免費的 Android 應用程式，可在地圖上找日本的吸菸區與吸煙室**，並標示路上禁菸區域，一鍵找到最近的地點。APK 可由上方的 Download smok-universal.apk 下載（與 Google Play 為同一版本）。
+**Smok 是免費的 Android 應用程式，可在地圖上找日本的吸菸區與吸煙室**，並標示路上禁菸區域，一鍵找到最近的地點。APK 可由上方的 Download smok-universal.apk 下載（與 Google Play 為同一款應用，但簽署金鑰不同，無法覆蓋安裝 Google Play 版本）。
 
 ## Versions
 
